@@ -23,10 +23,10 @@ node {
 
 node {
   stage('2- Print parameter'){
-    sh '
+    sh ''
        echo "Affichage du paramÃ¨tre saisie par l'utilisateur"
        echo "  valeur du paramÃ¨tre : $missing_param"
-    '
+    ''
 
     // Pour rÃ©cupÃ©rer la valeur dans le script
     def value = params.missing_param
