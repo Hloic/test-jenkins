@@ -9,6 +9,6 @@ node {
     }
     
     stage ('print variable'){
-        sh 'echo build number: $BUILD_NUMBER' 
+        print "build number: $BUILD_NUMBER" 
     }
 }
